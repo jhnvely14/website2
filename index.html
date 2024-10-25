@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 동서대학교 홍보</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('campus-banner.jpg'); /* 배너 이미지 경로 */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .navbar-custom {
+            background-color: #00448b;
+        }
+
+        .highlight {
+            color: #ffcc00;
+        }
+
+        .footer {
+            background-color: #f8f9fa;
+            padding: 30px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">동서대학교</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">대학 소개</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#departments">특성화 학과</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#campus-life">캠퍼스 라이프</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#admissions">입학 안내</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">문의</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 배너 섹션 -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4 highlight">동서대학교</h1>
+            <p class="lead">미래를 열어가는 창의적 실무 교육의 리더</p>
+            <a href="#admissions" class="btn btn-lg btn-warning mt-3">입학 안내</a>
+        </div>
+    </section>
+
+    <!-- 대학 소개 섹션 -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>동서대학교 소개</h2>
+                    <p>동서대학교는 글로벌 교육, 실무 중심 교육, 그리고 인성 교육을 통해 창의적이고 실용적인 인재를 양성하는 데 중점을 둡니다. 부산에 위치한 동서대학교는 국제적인 교육 기회와 첨단 시설을 갖춘 최고의 학습 환경을 자랑합니다.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="university-campus.jpg" alt="Campus Image" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 특성화 학과 섹션 -->
+    <section id="departments" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">특성화 학과</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="media.jpg" class="card-img-top" alt="Media Department">
+                        <div class="card-body">
+                            <h5 class="card-title">미디어 커뮤니케이션</h5>
+                            <p class="card-text">국내외에서 인정받는 미디어 전문가 양성</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="design.jpg" class="card-img-top" alt="Design Department">
+                        <div class="card-body">
+                            <h5 class="card-title">디자인</h5>
+                            <p class="card-text">창의성과 혁신을 강조한 디자인 교육</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center">
+                        <img src="it.jpg" class="card-img-top" alt="IT Department">
+                        <div class="card-body">
+                            <h5 class="card-title">IT 및 AI</h5>
+                            <p class="card-text">4차 산업혁명을 선도하는 기술 교육</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 캠퍼스 라이프 섹션 -->
+    <section id="campus-life" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">캠퍼스 라이프</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="dormitory.jpg" class="card-img-top" alt="Dormitory">
+                        <div class="card-body">
+                            <h5 class="card-title">기숙사 생활</h5>
+                            <p class="card-text">안전하고 편리한 기숙사 환경을 제공합니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="club.jpg" class="card-img-top" alt="Clubs">
+                        <div class="card-body">
+                            <h5 class="card-title">동아리 활동</h5>
+                            <p class="card-text">다양한 동아리와 학내 활동을 통해 학생 생활을 즐길 수 있습니다.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="festival.jpg" class="card-img-top" alt="Festival">
+                        <div class="card-body">
+                            <h5 class="card-title">축제 및 행사</h5>
+                            <p class="card-text">매년 열리는 캠퍼스 축제와 다채로운 이벤트를 경험하세요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 입학 안내 섹션 -->
+    <section id="admissions" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">입학 안내</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <p class="text-center">동서대학교는 미래 인재 양성을 위한 최고의 교육 프로그램을 제공합니다. 입학 지원에 관심이 있으시면, 아래 양식을 작성해 주시기 바랍니다.</p>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">이름</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">이메일</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">문의 사항</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning w-100">등록</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 문의 섹션 -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">문의</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <p>전화: 051-123-4567</p>
+                    <p>이메일: info@dongseo.ac.kr</p>
+                    <p>주소: 부산광역시 동서로 123, 동서대학교</p>
+                </div>
+            </div>
+        </div>
+   
